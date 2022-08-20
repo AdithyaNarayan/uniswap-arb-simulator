@@ -1,0 +1,9 @@
+[package]
+name = "uniswap-arb-simulator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+futures = "0.3.23"
+tokio = { version = "1", features = ["full"] }
